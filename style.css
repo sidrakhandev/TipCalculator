@@ -3,13 +3,18 @@ body{
     width:100%;
     margin: 0 auto;
     letter-spacing: 1.5px;
+    color: white;
+    
 }
 h1{
     text-align: center;
 }
+#head{
+    color: white;
+}
 #container{
     padding: 1.5em;
-    background:linear-gradient(100deg,rgb(194, 152, 248),rgb(188, 225, 241));
+    background-color: black;
   border-radius: 10px;
 }
 div{
