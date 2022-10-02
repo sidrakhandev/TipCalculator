@@ -1,5 +1,5 @@
 body{
-    font-size: 1.2em;
+    font-size: 1.1em;
     width:100%;
     margin: 0 auto;
     letter-spacing: 1.5px;
@@ -30,6 +30,7 @@ width: 100% ;
 @media (min-width:700px){
     body{
         width:60%;
+        font-family: Verdana, sans-serif;
         background: url(background.jpg) no-repeat center center fixed;
         background-size: cover;
         margin-top: 20px;
@@ -44,4 +45,4 @@ width: 100% ;
     div{
         line-height: 4em;
     }
-        }
+}
