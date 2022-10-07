@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Tip Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="container" align="center">
@@ -20,11 +22,11 @@
       </div>
       <div>
         <label>Tip:</label>
-        <input type="range" value="0"  id="tipInput" >
+        <input type="range" min="0" max="1000" value="0"  id="tipInput" >
         <span  id="tipOutput" ></span>
       </div>
       <div>
-      <label>Split(number of people)</label>
+      <label>Split (number of people)</label>
       <input type="range" min="1" max="10"  value="1" id="splitInput">
       <span id="splitOutput" ></span>
       </div>
